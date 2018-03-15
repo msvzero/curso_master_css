@@ -1,0 +1,45 @@
+
+CSS
+----
+Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de diseño gráfico 
+para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado 
+para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML. 
+
+Una regla CSS está compuesta de las siguientes partes:
+- Selector: indica el elemento de la pagina a la cual queremos aplicar el estilo. Este puede ser cualquier elemento
+ HTML.
+
+- Propiedades y sus valores: Estos se especifican dentro de un par de llaves. Todo lo que está dentro del par de 
+llaves se denomina “bloque de declaración” o “declaration block”. Cada propiedad y su valor están separados por
+“ : ” y son llamados “declaración”.
+
+Finalmente la estructura de una regla css queda de la siguiente manera:
+
+    selector { 
+        property: value; 
+        property: value;
+        property: value;
+    }
+
+Ejemplo de una regla css:
+
+    h2 { 
+        font-size: 26px; 
+        font-style: italic; 
+        color: #eb2428; 
+        margin-bottom: 10px;  
+    }
+
+Para agregar CSS a una página HTML existen tres maneras posibles:
+
+    - Crear un archivo CSS e incluir o llamar a dicho archivo desde nuestra página HTML.
+    - Incluir el CSS entre las etiquetas <head> de nuestro archivo HTML utilizando las etiquetas <script>.
+    - Incluir en CSS dentro de la propia etiqueta HTML.
+
+
+Importante
+----------
+El método recomendable en el 99% de los casos es la primera opción, es decir, separar nuestro archivo HTML y CSS, 
+para obtener un código más limpio y facilitar la manutención del mismo.
+
+

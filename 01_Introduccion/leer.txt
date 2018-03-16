@@ -36,6 +36,12 @@ Para agregar CSS a una página HTML existen tres maneras posibles:
     - Incluir el CSS entre las etiquetas <head> de nuestro archivo HTML utilizando las etiquetas <script>.
     - Incluir en CSS dentro de la propia etiqueta HTML.
 
+Importante
+----------
+Si incluimos css directo en la etiqueta HTML, dicho css sobreescribe a reglas aplicadas sobre el mismo 
+elemento ubicadas dentro de las estiquetas <style></style>, o en un archivo css externo. Para evitar dicho
+comportamiento podemos utilizar la palabra clave '!important' luego de la declaracion que queremos que se aplique.
+
 
 Importante
 ----------

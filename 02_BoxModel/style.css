@@ -1,0 +1,44 @@
+.contenedor {
+    /*width: 800px;
+    margin: auto;*/
+
+}
+.header {
+    text-align:center;
+    padding: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.contenido {
+    margin-top:5px;
+    padding: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.footer {
+    margin-top:5px;
+    text-align:center; 
+    padding:5px; 
+    border-width:1px; 
+    border-color:black; 
+    border-style:solid;
+}
+
+h1 {
+    font-size: 40px; 
+    line-height:1.4; 
+    font-weight: bold;
+    background-color:black; 
+    color: #0072ae;
+    /*width: 300px;
+     margin: 50px;
+    padding: 50px;*/
+    border: 10px solid blue; 
+    box-sizing: border-box; /* Propiedad que permite sustraer el padding y border del calculo del width y height. Esto reduce el valor final del width*/
+  }
+
+  span { 
+    background-color: green; 
+  } 

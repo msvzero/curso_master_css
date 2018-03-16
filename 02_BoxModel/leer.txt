@@ -1,0 +1,36 @@
+CSS Fundamental - El modelo de caja (Box Model)
+-----------------------------------------------
+El modelo de caja define que tan alto y ancho será un elemento en una página. Para determinar el 
+espacio horizontal que un elemento ocupará se suma el valor que ocupa el “contenido” y el valor 
+de las siguientes propiedades:
+- padding-left
+- padding-right
+- border-left
+- border-right
+- margin-left
+- margin-right
+
+Elementos en bloque (Block Elements)
+------------------------------------
+Hablemos un poco sobre los elementos de nivel de bloque. El encabezado 1 (h1), el encabezado 2 (h2), 
+los párrafos (p), los elementos de lista (li) y los div (div) son todos ejemplos de elementos de nivel 
+de bloque natural. Los elementos de nivel de bloque tienen dos rasgos definitorios: expanden todo el 
+ancho disponible y obligan a los elementos que aparecen después de ellos a aparecer en la línea siguiente, 
+lo que significa que se apilan uno encima del otro.
+
+Existen elementos que por naturaleza son de tipo bloque, por ejemplo, los encabezados o headers (h1, h2, … etc), 
+los párrafos (p), los elementos de una lista (li) y los ‘div’. Los elementos en bloque están definidos por 
+dos rasgos:
+
+- Se expanden ocupando todo el ancho disponible.
+- Obligan a los demás elementos que aparecen después de ellos a aparecer en la siguiente línea.
+
+Por lo tanto, los rasgos anteriores hacen que los elementos en bloques se apilan uno encima del otro.
+
+Elementos en linea (Inline Elements)
+------------------------------------
+Los elementos en línea (inline elements) se comportan de manera diferente. Estos se ubican uno al lado del 
+otro horizontalmente y no ocupan todo el ancho disponible, es decir solo toman el ancho o espacio que necesitan. 
+Algunos elementos que son por naturaleza en línea son las etiquetas de link o anclaje <a>, <span>, <i>, <b>,
+<strong> y <em>.
+

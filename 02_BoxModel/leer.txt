@@ -34,3 +34,10 @@ otro horizontalmente y no ocupan todo el ancho disponible, es decir solo toman e
 Algunos elementos que son por naturaleza en línea son las etiquetas de link o anclaje <a>, <span>, <i>, <b>,
 <strong> y <em>.
 
+Además del comportamiento descrito anteriormente, los elementos en línea no responden a atributos como ‘width’, 
+‘margin-top’ o ‘margin-bottom’. Por ello, si el elemento es naturalmente en línea y se agrega algunos de los 
+atributos junto con su valor no sucederá absolutamente nada.
+
+Por último la propiedad ‘display’ permite convertir un elemento en bloque a un elemento en línea y viceversa. 
+También se utiliza la propiedad ‘display’ con el valor ‘none’ para ocultar un elemento de la página.
+

@@ -1,6 +1,12 @@
+/*Importante: 
+Se puede establecer la propiedad 'margin' en 'auto' para centrar horizontalmente
+el elemento dentro de su contenedor.
+
+El elemento ocupara el ancho especificado y el espacio restante se dividira equitativamente
+entre los margenes izquierdo y derecho.*/
 .contenedor{
-    width: 800px;
-    margin: auto;
+    width: 50%;
+    margin: auto; 
 
 }
 

@@ -1,0 +1,10 @@
+Tags HTML 5
+
+El tag <section> define una seccion de la pagina, como un capitulo, headers (encabezado), footer (pie) o como cualquier otra 
+seccion de la pagina. El tag <section> es nuevo en HTML 5.
+
+<El tag <figure> especifica que contenido como ilustracion, diagramas, photos, etc. Ejemplo:
+
+        <figure>
+            <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+        </figure>

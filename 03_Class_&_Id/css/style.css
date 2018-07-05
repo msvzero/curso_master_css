@@ -1,0 +1,20 @@
+h1 {
+    font-size: 70px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #0072ae;
+}
+
+.alt-headline {
+    font-size: 40px;
+}
+
+#main-site-title {
+    color: deeppink;
+}
+
+.column-title {
+    font-style: normal; 
+    color: #0072ae; 
+    font-weight: bold; 
+}

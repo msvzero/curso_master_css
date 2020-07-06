@@ -18,3 +18,18 @@ h1 {
     color: #0072ae; 
     font-weight: bold; 
 }
+.secondary-section h2 {
+    font-style: normal;
+    color:red;
+    margin-bottom: 10px;
+}
+.secondary-section p {
+    color: deeppink;
+}
+.secondary-section div figure img {
+    border: 10px solid #333;
+}
+/* Lo mismo que el anterior */
+/* .secondary-section img {
+    border: 10px solid #333;
+} */

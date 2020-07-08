@@ -43,14 +43,54 @@ h1 {
 
 /*Buttons*/
 .button {
+    /* border: grosor, tipo de borde, color del borde */
     border: 2px solid #333;
+    /* color del texto dentro del boton */
     color: #333;
     padding: 10px 0;
+    /* block indica que ocupa toda una linea */
     display: block;
+    /* Alineacion del texto */
     text-align: center;
+    /* The font-weight CSS property specifies the weight or 
+    boldness of the font. Some fonts are only available in normal and bold */
     font-weight: bold;
+    /* The letter-spacing CSS property specifies spacing behavior 
+    between text characters */
     letter-spacing: 1.5px;
+    /* CSS3 transition property to smooth out the state change from no hover to
+     hover.
+     transition: transition-property, transition-duration, transition-timing-function
+     all: This can be set to a certain property you want to transition or to all the properties. So, if you
+     want to, you could set this to just color:
+     transition: .25s color linear;
+    If we wanted to, what we could add a comma separate list of properties to transition. In this
+    case, I'm transitioning both color and background-color. One reason this is nice is if you
+    need to transition more than one property, but not every property.
+    transition: .25s color linear, .25s background-color linear;
+    In our case, the timing function is set to linear. We can also use ease, ease-in, ease-
+    out, and ease-in-out:
+
+     */
     transition: .25s all linear;
+    /* 
+    Vendor prefixes
+    As mentioned earlier, transitions are a CSS3 property. All modern (major) browsers support
+    them: Chrome, Firefox, Safari, Internet Explorer, and Edge. Older browsers, such as IE9 and
+    below, don't support them. They still get the hover state, but it will be abrupt without any
+    transition. This isn't a problem as transitions typically aren't a core feature of your website,
+    but more of an added experience level. Still, they are CSS3, and we can get a little more
+    mileage out of them by including the vendor prefixed versions. Traditionally, the -webkit-
+    prefix was used for Safari and Chrome; -moz- was used for Firefox and -o- for Opera.
+    However, Firefox and Opera also now use -webkit-, so technically you don't need -moz-
+    and -o- as much as you used to need them; however, for older versions of these browsers,
+    you can still include them:
+    -webkit-transition: .25s all ease-in-out;
+    -moz-transition: .25s all ease-in-out;
+    -o-transition: .25s all ease-in-out;
+    transition: .25s all ease-in-out;
+
+    */
     -webkit-transition: .25s all linear;
 }
 .button-narrow {

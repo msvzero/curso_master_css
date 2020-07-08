@@ -92,6 +92,7 @@ h1 {
 
     */
     -webkit-transition: .25s all linear;
+    transform: scale(.9,.9);
 }
 .button-narrow {
     width: 25%;
@@ -107,4 +108,9 @@ h1 {
 .button:hover {
     background-color: #333;
     color: #fff;
+    /* Transforms allow you to do
+        several things, including rotate, scale, and translate 
+        The
+translate function can move the element to the left, right, top, or bottom*/
+    transform: scale(1.1,1.1) translate(0, -5px);
 }

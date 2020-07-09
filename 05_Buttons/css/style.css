@@ -40,6 +40,16 @@ h1 {
 .clear {
     clear: both;
 }
+/* clearfix */
+.grouping:before,
+.grouping:after {
+content: " ";
+display: table;
+}
+.grouping:after {
+clear: both;
+}
+
 
 /*Buttons*/
 .button {
@@ -111,6 +121,18 @@ h1 {
     /* Transforms allow you to do
         several things, including rotate, scale, and translate 
         The
-translate function can move the element to the left, right, top, or bottom*/
+    translate function can move the element to the left, right, top, or bottom*/
     transform: scale(1.1,1.1) translate(0, -5px);
 }
+
+/* Go Premium */
+.intro-content {
+    width: 600px;
+    margin-right: 60px;
+    float: left;
+  }
+  .go-premium {
+    width: 300px;
+    float: left;
+    margin-top: 125px;
+  }

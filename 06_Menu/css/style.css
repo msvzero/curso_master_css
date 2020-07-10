@@ -128,13 +128,14 @@ clear: both;
 /* Go Premium */
 .intro-content {
     width: 600px;
+    margin-top: 150px;
     margin-right: 60px;
     float: left;
   }
   .go-premium {
     width: 300px;
     float: left;
-    margin-top: 125px;
+    margin-top: 150px;
   }
   .call-to-action {
     border: 2px solid #fff;
@@ -160,10 +161,20 @@ background: none;
 /* Nav */
 nav {
     background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+
 
 }
 nav img {
     width: 160px;
+}
+nav figure {
+    position: absolute;
+    top: -30px;
+    left: 50px;
 }
 .primary-nav {
     list-style: none;

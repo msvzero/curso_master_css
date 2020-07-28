@@ -217,7 +217,27 @@ nav li a:active {
 /****************
 Drop Down Menu
 ****************/
+.has-submenu ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    position: absolute;
+    top: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #ada791;
+    border-left: 1px solid #ada791;
+    border-right: 1px solid #ada791;
+    width: 150px;
+    overflow: hidden;
+    display:  none;
+}
+.has-submenu a {
+    display: block;
+    padding: 25px 0;
+}
 
+.has-submenu:hover ul {
+    display: block;
+}
 
 
     
